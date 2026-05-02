@@ -1,0 +1,28 @@
+# 🔥 Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔥 Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# 🔥 VSCode / IDEs
+.vscode/
+.idea/
+
+# 🔥 Arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# 🔥 Virtual environments
+venv/
+.env/
+.virtualenv/
+.virtual_documents/
+
+# 🔥 Sistema operacional
+.DS_Store
+Thumbs.db
