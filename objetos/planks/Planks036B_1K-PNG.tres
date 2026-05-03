@@ -1,0 +1,23 @@
+[gd_resource type="StandardMaterial3D" load_steps=7 format=3 uid="acg_qbpi01j4"]
+
+[ext_resource type="Texture2D" uid="uid://acg_lo7abhcp" id="Color" path="./Planks036B_1K-PNG_Color.png"]
+[ext_resource type="Texture2D" uid="uid://acg_9fvd06uc" id="AmbientOcclusion" path="./Planks036B_1K-PNG_AmbientOcclusion.png"]
+[ext_resource type="Texture2D" uid="uid://acg_zk5yfc0r" id="Metalness" path="./Planks036B_1K-PNG_Metalness.png"]
+[ext_resource type="Texture2D" uid="uid://acg_8f7u96xl" id="Displacement" path="./Planks036B_1K-PNG_Displacement.png"]
+[ext_resource type="Texture2D" uid="uid://acg_bfwdv6xc" id="Roughness" path="./Planks036B_1K-PNG_Roughness.png"]
+[ext_resource type="Texture2D" uid="uid://acg_jglp0u8y" id="NormalGL" path="./Planks036B_1K-PNG_NormalGL.png"]
+[resource]
+albedo_texture = ExtResource("Color")
+ao_enabled = true
+ao_texture = ExtResource("AmbientOcclusion")
+ao_texture_channel = 4
+metallic_texture = ExtResource("Metalness")
+metallic = 1.0
+metallic_texture_channel = 4
+roughness_texture = ExtResource("Roughness")
+roughness_texture_channel = 4
+normal_texture = ExtResource("NormalGL")
+normal_enabled = true
+heightmap_texture = ExtResource("Displacement")
+heightmap_scale = 1.0
+heightmap_enabled = true
